@@ -1,0 +1,24 @@
+<table>
+    <h3>task complete list</h3>
+    <ng-container *ngFor="let d of data">
+   <!--   <tr *ngIf="d.isComplete==true">-->
+      <tr>
+        <td>{{d.id}}</td>
+        <td>{{d.name}}</td>
+        <td>{{d.isComplete}}</td>
+        
+      </tr>
+    </ng-container>
+  </table>
+  <table>
+    <h3>task completed data</h3>
+    <ng-container *ngFor="let d of data">
+   <!--   <tr *ngIf="d.isComplete==true">-->
+      <tr>
+        <td>{{d.id}}</td>
+        <td>{{d.name}}</td>
+        <td>{{d.isComplete}}</td>
+        
+      </tr>
+    </ng-container>
+  </table>

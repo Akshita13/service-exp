@@ -1,0 +1,28 @@
+
+<table>
+  <h3>task list</h3>
+  <ng-container *ngFor="let d of data">
+    <tr>
+
+      <td>{{d.id}}</td>
+      <td>{{d.name}}</td>
+      <td>{{d.isComplete}}</td>
+      
+    </tr>
+  </ng-container>
+</table>
+
+
+
+<table>
+  <h3>task completed</h3>
+  <ng-container *ngFor="let d of temp">
+    <tr>
+
+      <td>{{d.id}}</td>
+      <td>{{d.name}}</td>
+      <td>{{d.isComplete}}</td>
+      
+    </tr>
+  </ng-container>
+</table>
